@@ -25,7 +25,7 @@ class String
       elsif sent.exclamation?
         counter+=1
       end
-      end
+    end
     counter
   end
 end
