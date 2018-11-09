@@ -16,6 +16,7 @@ class String
 
   def count_sentences
     counter=0
+    sentAr=self.split(" ")
     if self.sentence?
       counter+=1
     elsif self.question?
